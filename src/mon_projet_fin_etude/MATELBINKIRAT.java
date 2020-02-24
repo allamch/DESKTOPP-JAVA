@@ -1,0 +1,198 @@
+/*
+ * Decompiled with CFR 0_123.
+ */
+package mon_projet_fin_etude;
+
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.Container;
+import java.awt.Font;
+import java.awt.Frame;
+import java.awt.LayoutManager;
+import java.net.URL;
+import javax.swing.BorderFactory;
+import javax.swing.GroupLayout;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.LayoutStyle;
+import javax.swing.border.Border;
+
+public class MATELBINKIRAT
+extends JPanel {
+    static Frame java;
+    private JButton jButton1;
+    private JLabel jLabel1;
+    private JLabel jLabel10;
+    private JLabel jLabel11;
+    private JLabel jLabel12;
+    private JLabel jLabel13;
+    private JLabel jLabel14;
+    private JLabel jLabel15;
+    private JLabel jLabel16;
+    private JLabel jLabel17;
+    private JLabel jLabel18;
+    private JLabel jLabel19;
+    private JLabel jLabel2;
+    private JLabel jLabel21;
+    private JLabel jLabel22;
+    private JLabel jLabel23;
+    private JLabel jLabel24;
+    private JLabel jLabel25;
+    private JLabel jLabel26;
+    private JLabel jLabel27;
+    private JLabel jLabel28;
+    private JLabel jLabel3;
+    private JLabel jLabel30;
+    private JLabel jLabel31;
+    private JLabel jLabel32;
+    private JLabel jLabel34;
+    private JLabel jLabel35;
+    private JLabel jLabel4;
+    private JLabel jLabel5;
+    private JLabel jLabel6;
+    private JLabel jLabel7;
+    private JLabel jLabel8;
+    private JLabel jLabel9;
+    private JPanel jPanel2;
+    private JPanel jPanel4;
+    private JTextField jTextField32;
+    private JTextField jTextField33;
+
+    public MATELBINKIRAT() {
+        this.initComponents();
+    }
+
+    public void setvalued(String dat) {
+        this.jLabel28.setText(dat);
+    }
+
+    private void initComponents() {
+        this.jPanel4 = new JPanel();
+        this.jLabel4 = new JLabel();
+        this.jLabel2 = new JLabel();
+        this.jLabel7 = new JLabel();
+        this.jPanel2 = new JPanel();
+        this.jLabel27 = new JLabel();
+        this.jLabel32 = new JLabel();
+        this.jLabel31 = new JLabel();
+        this.jLabel30 = new JLabel();
+        this.jLabel34 = new JLabel();
+        this.jLabel35 = new JLabel();
+        this.jLabel19 = new JLabel();
+        this.jTextField32 = new JTextField();
+        this.jTextField33 = new JTextField();
+        this.jLabel5 = new JLabel();
+        this.jLabel18 = new JLabel();
+        this.jLabel1 = new JLabel();
+        this.jLabel3 = new JLabel();
+        this.jLabel6 = new JLabel();
+        this.jLabel9 = new JLabel();
+        this.jLabel14 = new JLabel();
+        this.jLabel11 = new JLabel();
+        this.jLabel16 = new JLabel();
+        this.jLabel13 = new JLabel();
+        this.jLabel10 = new JLabel();
+        this.jLabel8 = new JLabel();
+        this.jLabel15 = new JLabel();
+        this.jLabel17 = new JLabel();
+        this.jLabel22 = new JLabel();
+        this.jLabel21 = new JLabel();
+        this.jLabel25 = new JLabel();
+        this.jLabel23 = new JLabel();
+        this.jLabel12 = new JLabel();
+        this.jLabel26 = new JLabel();
+        this.jLabel24 = new JLabel();
+        this.jLabel28 = new JLabel();
+        this.jButton1 = new JButton();
+        this.jPanel4.setBackground(new Color(255, 255, 255));
+        this.jPanel4.setBorder(BorderFactory.createLineBorder(new Color(0, 0, 0), 2));
+        this.jLabel4.setIcon(new ImageIcon(this.getClass().getResource("/image/mutuelle/matleb in5irat.PNG")));
+        this.jLabel2.setIcon(new ImageIcon(this.getClass().getResource("/image/mutuelle/ENTET.PNG")));
+        this.jLabel7.setBackground(new Color(153, 153, 255));
+        this.jLabel7.setFont(new Font("Tahoma", 1, 14));
+        this.jLabel7.setForeground(new Color(0, 0, 255));
+        this.jLabel7.setText("\u0631\u0642\u0645 \u0627\u0644\u0645\u0644\u0641");
+        this.jPanel2.setBackground(new Color(255, 255, 255));
+        this.jLabel27.setFont(new Font("Tahoma", 0, 14));
+        this.jLabel27.setText("\u0627\u0646\u064a \u0627\u0644\u0645\u0645\u0636\u064a\u0629 \u0627\u0633\u0641\u0644\u0647(\u0647\u0627) ");
+        this.jLabel32.setFont(new Font("Tahoma", 0, 14));
+        this.jLabel32.setText("\u0623\u0639\u0648\u0627\u0646 \u0627\u0644\u0635\u062d\u0629 \u0643\u0645\u0627 \u0623\u062a\u0639\u0647\u062f \u0639\u0644\u0649 \u0627\u0644\u0634\u0631\u0641 \u0628\u0627\u0644\u0627\u0645\u062a\u062b\u0627\u0644 \u0644\u062c\u0645\u064a\u0639 \u0645\u0642\u062a\u0636\u064a\u0627\u062a \u0627\u0644\u0642\u0627\u0646\u0648\u0646 \u0627\u0644\u0623\u0633\u0627\u0633\u064a  ");
+        this.jLabel31.setFont(new Font("Tahoma", 0, 14));
+        this.jLabel31.setText("22  \u0627\u0644\u0635\u0627\u062f\u0631 \u0628\u0627\u0644\u0631\u0627\u0626\u062f \u0627\u0644\u0631\u0633\u0645\u064a \u0641\u064a\u0641\u064a\u0641\u0631\u064a 1980 \u0628\u062a\u0627\u0631\u064a\u062e 4 \u0645\u0627\u0631\u0633 1980");
+        this.jLabel30.setFont(new Font("Tahoma", 0, 14));
+        this.jLabel30.setText(" \u0643\u0645\u0627 \u0627\u0637\u0644\u0628 \u0645\u0646 \u0627\u0644\u0645\u0624\u062c\u0631 EMPLOYEUR");
+        this.jLabel34.setFont(new Font("Tahoma", 0, 14));
+        this.jLabel34.setText("\u0627\u0637\u0644\u0639\u062a \u0639\u0644\u064a\u0647 \u0648\u0648\u0627\u0641\u0642\u062a");
+        this.jLabel35.setFont(new Font("Tahoma", 0, 14));
+        this.jLabel35.setText("\u0627\u0645\u0636\u0627\u0621 \u0627\u0644\u0645\u0646\u062e\u0631\u0637");
+        GroupLayout jPanel2Layout = new GroupLayout(this.jPanel2);
+        this.jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel2Layout.createSequentialGroup().addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel2Layout.createSequentialGroup().addGap(19, 19, 19).addComponent(this.jLabel32)).addGroup(jPanel2Layout.createSequentialGroup().addGap(133, 133, 133).addComponent(this.jLabel27)).addGroup(jPanel2Layout.createSequentialGroup().addContainerGap().addComponent(this.jLabel31)).addGroup(jPanel2Layout.createSequentialGroup().addGap(86, 86, 86).addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel2Layout.createSequentialGroup().addGap(10, 10, 10).addComponent(this.jLabel35)).addGroup(jPanel2Layout.createSequentialGroup().addComponent(this.jLabel34).addGap(68, 68, 68).addComponent(this.jLabel30))))).addContainerGap(-1, 32767)));
+        jPanel2Layout.setVerticalGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel2Layout.createSequentialGroup().addContainerGap(-1, 32767).addComponent(this.jLabel27).addGap(39, 39, 39).addComponent(this.jLabel32).addGap(4, 4, 4).addComponent(this.jLabel31).addGap(18, 18, 18).addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(this.jLabel30).addComponent(this.jLabel34)).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addComponent(this.jLabel35).addGap(23, 23, 23)));
+        this.jLabel19.setFont(new Font("Tahoma", 1, 14));
+        this.jLabel19.setForeground(new Color(0, 0, 204));
+        this.jLabel19.setText("\u0631\u0642\u0645 \u0628.\u062a.\u0648");
+        this.jLabel5.setBackground(new Color(153, 153, 255));
+        this.jLabel5.setFont(new Font("Tahoma", 1, 14));
+        this.jLabel5.setForeground(new Color(0, 0, 255));
+        this.jLabel5.setText("\u0627\u0644\u0645\u0639\u0631\u0641 \u0627\u0644\u0627\u0644\u064a ");
+        this.jLabel18.setFont(new Font("Tahoma", 1, 14));
+        this.jLabel18.setForeground(new Color(0, 0, 255));
+        this.jLabel18.setText("\u0627\u0644\u0631\u0642\u0645 \u0627\u0644\u062c\u0627\u0631\u064a \u0628\u0627\u0644\u0628\u0646\u0643 \u0623\u0648 \u0627\u0644\u0628\u0631\u064a\u062f");
+        this.jLabel1.setFont(new Font("Arial", 0, 14));
+        this.jLabel1.setText("..................................");
+        this.jLabel3.setFont(new Font("Arial", 0, 14));
+        this.jLabel3.setText(".....................................");
+        this.jLabel6.setFont(new Font("Tahoma", 1, 14));
+        this.jLabel6.setText("\u0627\u0644\u0627\u0633\u0645 \u0648 \u0627\u0644\u0644\u0642\u0628");
+        this.jLabel9.setFont(new Font("Arial", 0, 14));
+        this.jLabel9.setText(".....................................");
+        this.jLabel14.setFont(new Font("Tahoma", 1, 14));
+        this.jLabel14.setText("\u0627\u0644\u0645\u0647\u0646\u0629");
+        this.jLabel11.setFont(new Font("Arial", 0, 14));
+        this.jLabel11.setText(".....................................");
+        this.jLabel16.setFont(new Font("Tahoma", 1, 14));
+        this.jLabel16.setText("\u0645\u0643\u0627\u0646\u0647\u0627");
+        this.jLabel13.setFont(new Font("Arial", 0, 14));
+        this.jLabel13.setText(".....................................");
+        this.jLabel10.setFont(new Font("Tahoma", 1, 14));
+        this.jLabel10.setText("\u0627\u0644\u0645\u0633\u062a\u0634\u0641\u0649");
+        this.jLabel8.setFont(new Font("Tahoma", 1, 14));
+        this.jLabel8.setText("\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0648\u0644\u0627\u062f\u0629");
+        this.jLabel15.setFont(new Font("Arial", 0, 14));
+        this.jLabel15.setText(".....................................");
+        this.jLabel17.setFont(new Font("Arial", 0, 14));
+        this.jLabel17.setText(".....................................");
+        this.jLabel22.setFont(new Font("Tahoma", 1, 14));
+        this.jLabel22.setText("\u0631\u0642\u0645 \u0627\u0644\u0647\u0627\u062a\u0641 \u0627\u0644\u062c\u0648\u0627\u0644");
+        this.jLabel21.setFont(new Font("Arial", 0, 14));
+        this.jLabel21.setText(".....................................");
+        this.jLabel25.setFont(new Font("Tahoma", 1, 14));
+        this.jLabel25.setText("\u0627\u0633\u0645 \u0627\u0644\u0632\u0648\u062c (\u0629)");
+        this.jLabel23.setFont(new Font("Arial", 0, 14));
+        this.jLabel23.setText(".....................................");
+        this.jLabel12.setFont(new Font("Tahoma", 1, 14));
+        this.jLabel12.setText("\u0627\u0644\u0639\u0646\u0648\u0627\u0646");
+        this.jLabel26.setFont(new Font("Arial", 0, 14));
+        this.jLabel26.setText(".....................................");
+        this.jLabel24.setFont(new Font("Tahoma", 0, 18));
+        this.jLabel24.setForeground(new Color(0, 0, 255));
+        this.jLabel24.setText("\u0627\u0644\u0645\u0647\u062f\u064a\u0629 \u0641\u064a");
+        this.jLabel28.setFont(new Font("Arial", 0, 14));
+        this.jLabel28.setText(".....................................");
+        GroupLayout jPanel4Layout = new GroupLayout(this.jPanel4);
+        this.jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel4Layout.createSequentialGroup().addGap(10, 10, 10).addGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel4Layout.createSequentialGroup().addGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel4Layout.createSequentialGroup().addGap(10, 10, 10).addComponent(this.jLabel7)).addComponent(this.jTextField33, -2, 107, -2)).addGap(40, 40, 40).addComponent(this.jLabel4, -2, 203, -2).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel4Layout.createSequentialGroup().addGap(29, 29, 29).addComponent(this.jLabel19)).addComponent(this.jTextField32, -2, 125, -2))).addComponent(this.jLabel2))).addGroup(GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup().addContainerGap().addComponent(this.jLabel23, 0, 0, 32767).addGap(30, 30, 30).addComponent(this.jLabel25).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addComponent(this.jLabel21, 0, 0, 32767).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addComponent(this.jLabel22).addContainerGap()).addGroup(GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup().addContainerGap(14, 32767).addGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addGroup(jPanel4Layout.createSequentialGroup().addGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addGroup(jPanel4Layout.createSequentialGroup().addComponent(this.jLabel13).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addComponent(this.jLabel10)).addGroup(jPanel4Layout.createSequentialGroup().addComponent(this.jLabel17).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addComponent(this.jLabel16))).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addGroup(jPanel4Layout.createSequentialGroup().addComponent(this.jLabel15).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addComponent(this.jLabel8)).addGroup(jPanel4Layout.createSequentialGroup().addComponent(this.jLabel9, -2, 166, -2).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addComponent(this.jLabel14)))).addGroup(jPanel4Layout.createSequentialGroup().addComponent(this.jLabel11, -2, 222, -2).addGap(48, 48, 48).addComponent(this.jLabel6))).addContainerGap()).addGroup(GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup().addContainerGap(32, 32767).addComponent(this.jLabel1, -2, 222, -2).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addComponent(this.jLabel18).addGap(61, 61, 61)).addGroup(GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup().addContainerGap(112, 32767).addGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addGroup(jPanel4Layout.createSequentialGroup().addComponent(this.jLabel28, -2, 222, -2).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addComponent(this.jLabel24)).addGroup(jPanel4Layout.createSequentialGroup().addComponent(this.jLabel3, -2, 222, -2).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addComponent(this.jLabel5))).addGap(69, 69, 69)).addGroup(GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup().addContainerGap().addGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addComponent(this.jPanel2, -2, 397, -2).addComponent(this.jLabel26, -1, 420, 32767)).addGap(4, 4, 4).addComponent(this.jLabel12).addGap(20, 20, 20)));
+        jPanel4Layout.setVerticalGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel4Layout.createSequentialGroup().addContainerGap().addComponent(this.jLabel2).addGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(jPanel4Layout.createSequentialGroup().addGap(7, 7, 7).addComponent(this.jLabel4)).addGroup(jPanel4Layout.createSequentialGroup().addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addGroup(GroupLayout.Alignment.LEADING, jPanel4Layout.createSequentialGroup().addComponent(this.jLabel19).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addComponent(this.jTextField32, -2, 36, -2)).addGroup(GroupLayout.Alignment.LEADING, jPanel4Layout.createSequentialGroup().addGap(1, 1, 1).addComponent(this.jLabel7).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addComponent(this.jTextField33, -2, 36, -2))))).addGap(10, 10, 10).addGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(this.jLabel24).addComponent(this.jLabel28, -2, 24, -2)).addGap(18, 18, 18).addGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(this.jLabel5).addComponent(this.jLabel3, -2, 24, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(this.jLabel18, -2, 17, -2).addComponent(this.jLabel1, -2, 24, -2)).addGap(18, 18, 18).addGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addComponent(this.jLabel6).addComponent(this.jLabel11, -2, 24, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup().addGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addComponent(this.jLabel14).addComponent(this.jLabel10).addComponent(this.jLabel9, -2, 24, -2)).addGap(1, 1, 1)).addGroup(jPanel4Layout.createSequentialGroup().addComponent(this.jLabel13, -2, 24, -2).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED))).addGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addGroup(jPanel4Layout.createSequentialGroup().addGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(this.jLabel8).addComponent(this.jLabel15, -2, 24, -2).addComponent(this.jLabel16)).addGap(13, 13, 13)).addGroup(jPanel4Layout.createSequentialGroup().addComponent(this.jLabel17, -2, 24, -2).addGap(18, 18, 18))).addGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addGroup(jPanel4Layout.createSequentialGroup().addGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(this.jLabel22).addComponent(this.jLabel21, -2, 24, -2).addComponent(this.jLabel25)).addGap(13, 13, 13)).addGroup(jPanel4Layout.createSequentialGroup().addComponent(this.jLabel23, -2, 24, -2).addGap(18, 18, 18))).addGroup(jPanel4Layout.createParallelGroup(GroupLayout.Alignment.TRAILING).addComponent(this.jLabel12, -2, 17, -2).addComponent(this.jLabel26, -2, 24, -2)).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, -1, 32767).addComponent(this.jPanel2, -2, -1, -2).addContainerGap()));
+        this.jButton1.setText("jButton1");
+        GroupLayout layout = new GroupLayout(this);
+        this.setLayout(layout);
+        layout.setHorizontalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addContainerGap(-1, 32767).addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(GroupLayout.Alignment.TRAILING, layout.createSequentialGroup().addComponent(this.jPanel4, -2, -1, -2).addContainerGap()).addGroup(GroupLayout.Alignment.TRAILING, layout.createSequentialGroup().addComponent(this.jButton1).addGap(137, 137, 137)))));
+        layout.setVerticalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(layout.createSequentialGroup().addComponent(this.jPanel4, -2, 649, -2).addGap(18, 18, 18).addComponent(this.jButton1).addContainerGap(30, 32767)));
+    }
+}
+
